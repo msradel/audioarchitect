@@ -2,6 +2,15 @@
 
 AudioArchitect is a cross‑platform playlist management tool that helps you randomize, clean up, and move playlists between streaming services without touching the underlying audio streams.
 
+## Project structure
+
+AudioArchitect is split into two parts:
+
+- **AudioArchitect (this repo)** – Open-source Bridges, neutral playlist formats, and platform documentation. Focused on non-commercial tools that help you export/import and clean up playlists between services without touching audio streams.
+- **AudioArchitect Premium (private)** – Commercial app with proprietary smart randomization, analytics, and deeper integrations. The code and detailed implementation live in a separate private repository.
+
+The Bridges and Premium app both use the same neutral playlist formats defined in `docs/playlist_format.md`.
+
 ## Features
 
 - Smart playlist randomization that preserves variety even in very large playlists  
